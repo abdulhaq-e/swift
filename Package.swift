@@ -22,8 +22,8 @@ let package = Package(
     .library(name: "SwiftFormat", targets: ["SwiftFormat"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/apple/swift-package-manager.git", from: "0.6.0"),
     .package(url: "https://github.com/apple/swift-syntax", .exact("0.50200.0")),
+    .package(url: "https://github.com/apple/swift-tools-support-core.git", from: "0.1.3")
   ],
   targets: [
     .target(
@@ -73,7 +73,7 @@ let package = Package(
         "SwiftFormatConfiguration",
         "SwiftFormatCore",
         "SwiftSyntax",
-        "SPMUtility",
+        "SwiftToolsSupport",
       ]
     ),
     .testTarget(name: "CommonMarkTests", dependencies: ["CommonMark"]),

@@ -13,7 +13,7 @@
 import Basic
 import Foundation
 import SwiftFormat
-import SPMUtility
+import TSCUtility
 
 /// Collects the command line options that were passed to `swift-format`.
 struct CommandLineOptions {

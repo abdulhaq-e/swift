@@ -15,7 +15,7 @@ import Foundation
 import SwiftFormat
 import SwiftFormatConfiguration
 import SwiftFormatCore
-import SPMUtility
+import TSCUtility
 
 fileprivate func main(_ arguments: [String]) -> Int32 {
   let url = URL(fileURLWithPath: arguments.first!)
