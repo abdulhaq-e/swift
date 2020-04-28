@@ -22,8 +22,8 @@ let package = Package(
     .library(name: "SwiftFormat", targets: ["SwiftFormat"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/apple/swift-package-manager.git", from: "0.5.0"),
-    .package(url: "https://github.com/apple/swift-syntax", .exact("0.50100.0")),
+    .package(url: "https://github.com/apple/swift-package-manager.git", from: "0.6.0"),
+    .package(url: "https://github.com/apple/swift-syntax", .exact("0.50200.0")),
   ],
   targets: [
     .target(
